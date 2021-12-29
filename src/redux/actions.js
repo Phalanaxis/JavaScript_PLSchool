@@ -43,6 +43,9 @@ export function changeTitle(data) {
 }
 
 //добавид action creator для изменения стилей
+// в table.js диспатчу action
+//добавил новый тип действия ресайз в types.js
+//раскомментил TABLE_RESIZE  в rootReduce
 export function tableResize(data) { 
   return {
     type: TABLE_RESIZE,

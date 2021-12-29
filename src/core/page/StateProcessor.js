@@ -1,7 +1,7 @@
 export class StateProcessor {
-  constructor(client) {
+  constructor(client, holdup = 300) {
     this.client = client;
-    this.listen = this.listen.bind(this);
+    this.listen = debounce(this.listen.bind(this), holdup);
   }
 
   listen(state) {
