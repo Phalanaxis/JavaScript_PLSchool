@@ -1,4 +1,3 @@
 # JavaScript_PLSchool
 Pure JavaScript Excel for PLSchool
-
-<p>github pages</p>
+<a href = "https://phalanaxis.github.io/JavaScript_PLSchool/dist/index.html">github pages</a>
