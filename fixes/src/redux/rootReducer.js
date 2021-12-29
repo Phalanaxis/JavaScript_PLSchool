@@ -1,4 +1,4 @@
-import { CHANGE_TEXT, CHANGE_STYLES, APPLY_STYLE, CHANGE_TITLE, UPDATE_DATE, TABLE_RESIZE } from './types';
+import { CHANGE_TEXT, CHANGE_STYLES, APPLY_STYLE, CHANGE_TITLE, UPDATE_DATE } from './types';
 
 export function rootReducer(state, action) {
   let field;
@@ -11,6 +11,7 @@ export function rootReducer(state, action) {
       // TODO: 4. Опишите здесь как изменяется состояние при вызове действия типа CHANGE_TEXT.
       // При вызове CHANGE_TEXT мы хотим записать данные в объект dataState по ключу id'шнику ячейки
       // А также сохранить новое значение текста в currentText
+      
       //в field записал ссылку на объект dataState куда будут записываться данные с помощью value, также сохраняю новое значение в currentText
       field = 'dataState';
       return{

@@ -19,6 +19,7 @@ export class Router {
     this.changePageHandler = this.changePageHandler.bind(this)
 
     this.init();
+
   }
 
   init() {

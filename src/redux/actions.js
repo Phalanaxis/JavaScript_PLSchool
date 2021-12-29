@@ -1,4 +1,4 @@
-import { CHANGE_TEXT, CHANGE_STYLES, APPLY_STYLE, CHANGE_TITLE, UPDATE_DATE } from './types';
+import { CHANGE_TEXT, CHANGE_STYLES, APPLY_STYLE, CHANGE_TITLE, UPDATE_DATE, TABLE_RESIZE } from './types';
 // Action Creator
 
 // TODO: 2. Добавьте action creator (action creator - это ф-ция, создающая действие) tableResize для изменения стилей.
@@ -45,7 +45,7 @@ export function changeTitle(data) {
 //добавид action creator для изменения стилей
 // в table.js диспатчу action
 //добавил новый тип действия ресайз в types.js
-//раскомментил TABLE_RESIZE  в rootReduce
+//раскомментил TABLE_RESIZE  в rootReducer
 export function tableResize(data) { 
   return {
     type: TABLE_RESIZE,
